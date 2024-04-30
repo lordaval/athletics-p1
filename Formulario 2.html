@@ -5,45 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
-    <link rel="stylesheet" href="css/Untitled-2.css">
-    <style>
-        
-        h1{
-            text-align: center;
-            font-family: Andale Mono, monospace;
-        }
-        p{
-            text-align: center;
-        }
-        div{
-            text-align: center;
-            font-family: Andale Mono, monospace;
-            font-weight: 500;
-        }
-        body{
-            text-align: center;
-        }
-        .header{
-            width: 100%;
-            height: 100px;
-            background-color: #000346;
-            display:flex; flex-direction: row;
-            align-items: center;
-            gap: 300px;
-        }
-        img{
-            width: 8%;
-            height: 100px;
-        }
-        button{
-            background-color: #00FF93;
-        }
-    </style>
+    <link rel="stylesheet" href="css/Untitled-1.css">
 </head>
 <body>
 
     <header class="header">
-        <img src="./imagens/IMG-20240326-WA0005.jpg" alt="Logo">
+        <img src="imagens/IMG-20240326-WA0003.jpg" alt="Logo">
       </header>
 
     <div>
@@ -52,11 +19,9 @@
         <br>
     
     <form>
-                <label>Nome</label>
-                <input type="text" name="Nome" id="Nome"><br>
+                <input type="text" name="Nome" id="Nome" size="" placeholder="Nome"><br>
                 <br>
 
-                <label>Idade</label>
                 <select id="number">
                     <option>0</option>
                     <option>1</option>
@@ -151,17 +116,14 @@
                 </select><br>
                 <br>
 
-            <label>Peso</label>
-            <input type="number" name="Peso" id="Peso"><br>
+            <input type="text" name="Peso" id="Peso" placeholder="Peso"><br>
             <br>
 
-            <label>Altura</label>
-            <input type="number" name="Altura" id="Altura"><br>
+            <input type="text" name="Altura" id="Altura" placeholder="Altura"><br>
             <br>
 
             <br>
-            <label>Conte sobre sua alimentação</label><br>
-            <textarea rows="10" style="width: 26em;" id="alimentação" name="alimentação"></textarea><br>
+            <textarea rows="10" style="width: 26em;" id="alimentação" name="alimentação" placeholder="Conte sobre sua alimentação"></textarea><br>
         </div>
 
         <button type="submit">Concluído</button>
