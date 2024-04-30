@@ -1,28 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Atlhetics</title>
+        <link rel="stylesheet" href="css/header{.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <img src="img/IMG-20240326-WA0005.jpg" alt="logo">
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Fazer login</h1>
+        <form>
+            
+        <div>
+            <label>Usuário</label>
+            <input type="text" required/><br>
+            <br>
+            <a href="Untitled-3.html">redefinir senha</a>
+            <br>  
+            <label>Senha </label>
+            <input type="password" required ><br>
+        <br><br>
+            <button type="submit">Continuar</button>
+        </div>
+        </form>
+
+        <p> Não possui uma conta? <a href="Untitled-2.html">criar</a></p>
+    </body>
+</html>
+
+---------------------------------------------------------
+
 header{
     background-color: #000346;
     height: 100px;
+    width: 100%;
+    display:flex; flex-direction: row;
+      align-items: center;
+      gap: 300px;
+
+
 }
 img{
     width: 8%;
     height: 100px;
-}
-button{
-    background-color: #00ff93;
-    width: 10%;
-    height: 30px;
-}
-
-
-
------------------------------------------------------------------------------------------------
-
-header{
-    background-color: #000346;
-    height: 100px;
-}
-img{
-    width: 8%;
-    height: 100px;
+    cursor: pointer;
 }
 button{
     background-color: #00ff93;
@@ -35,7 +62,7 @@ P{
 }
 div{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 h1{
     font-style: initial;
@@ -47,95 +74,21 @@ button{
     border-radius: 10px;
     width: 150px;
     height: 45px;
+    color: #000346;
+    border-style: none;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none
 }
 input{
-    border-radius: 10px;
-    width: 150px;
+    border-radius: 5px;
+    width: 230px;
     height: 40px;
+    border-width: 1px;
 }
-
---------------------------------------------------------------------------------
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Login Atlhetics</title>
-        <link rel="stylesheet" href="projeto pagina login/css/Untitled-1.css">
-        <style>
-            P{
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            div{
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            h1{
-                font-style: initial;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        </style>
-    </head>
-    <body>
-        <header class="header">
-            <img src="projeto pagina login/imagens/IMG-20240326-WA0005.jpg" alt="logo">
-        </header>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>Fazer login</h1>
-        <form>
-            
-        <div>
-            <label>Usuário</label>
-            <input type="text" placeholder="Insira seu usuário"/><br> 
-            <br>  
-            <label>Senha</label>
-            <input type="password" placeholder="Insira sua senha" id="olho"/><br>
-        <br><br>
-            <button type="submit">Entrar</button>
-        </div>
-        </form>
-
-        <p> Não possui uma conta? <a href="cadastro.html">criar</a></p>
-    </body>
-</html>
-
-------------------------------------------------------------------------------------------------------------
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Login Atlhetics</title>
-        <link rel="stylesheet" href="projeto pagina login/css/Untitled-1.css">
-
-    </head>
-    <body>
-        <header class="header">
-            <img src="projeto pagina login/imagens/IMG-20240326-WA0005.jpg" alt="logo">
-        </header>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>Fazer login</h1>
-        <form>
-            
-        <div>
-            <label>Usuário</label>
-            <input type="text"/><br>
-            <br>  
-            <label>Senha </label>
-            <input type="password"/><br><a href="esqueci.html">redefinir senha</a>
-        <br><br>
-            <button type="submit">continuar</button>
-        </div>
-        </form>
-
-        <p> Não possui uma conta? <a href="cadastro.html">criar</a></p>
-    </body>
-</html>
+html, body {
+    padding: 0;
+    margin: 0;
+  }
