@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
+    <link rel="stylesheet" href="css/Untitled-1.css">
     <Style>
         h3{
             text-align: center;
@@ -14,18 +15,26 @@
     </Style>
 </head>
 <body>
-    <h3>Crie sua conta</h3>
+    <header class="header" >
+        <img src="img/IMG-20240326-WA0005.jpg" alt="logo">
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Crie sua conta</h1>
     <div>
         <label>Nome Completo</label>
         <input type="text" id="nome" name="nome"><br>
         <br>
 
-        <label>Selecione seu Gênero</label>
-        <input type="checkbox" id="gênero" name="gênero" value="masculino">
+        <label>Selecione seu Gênero</label><br>
+        <input type="radio" id="gênero" name="gênero" value="masculino">
         <label for="gênero">Masculino</label> 
-        <input type="checkbox" id="gênero" name="gênero" value="feminino">
+        <input type="radio" id="gênero" name="gênero" value="feminino">
         <label for="gênero">Feminino</label> 
-        <input type="checkbox" id="gênero" name="gênero" value="outros">
+        <input type="radio" id="gênero" name="gênero" value="outros">
         <label for="gênero">Outros</label><br>
     <br>
     
@@ -38,17 +47,24 @@
     <br>
     
         <label>E-mail</label>
-        <input type="email" name="email" id="email"><br>
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com"><br>
     <br>
 
         <label>Senha</label>
-        <input type="password" name="senha" id="senha"><br>
+        <input type="password" name="senha" id="senha" placeholder="pelo menos 6 caracteres"><br>
+    <br>
+        <label>Confirmar Senha</label>
+        <input type="password" name="senha2" id="senha2" placeholder="inserir novamente"><br>
+    
     <br>    
-        <button type="submit">Criar Cadastro</button>
+        <button type="submit">Criar Conta</button>
     </div>
 
     
 </body>
 </html>
+
+        
+
 
         
