@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <style>
+        h3{
+            text-align: center;
+        }
+        div{
+            text-align: center;
+        }
+        img{
+            width: 8%;
+            height: 100px;
+            cursor: pointer;
+        }
+        button{
+            background-color: #00ff93;
+            width: 10%;
+            height: 30px;
+        }
+        header{
+            background-color: #000346;
+            height: 100px;
+            width: 100%;
+            display:flex; flex-direction: row;
+            align-items: center;
+            gap: 300px;
+        }
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration: none
+        }
+        button{
+            cursor: pointer;
+            border-radius: 10px;
+            width: 150px;
+            height: 45px;
+            color: #000346;
+            border-style: none;
+            font-size: 17px;
+        }
+        p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        h1{
+            font-style: initial;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .signup-container input[type="text"]{
+            border-radius: 5px;
+            width: 230px;
+            height: 40px;
+            border-width: 1px;
+        }
+        .signup-container input[type="email"]{
+            border-radius: 5px;
+            width: 230px;
+            height: 40px;
+            border-width: 1px;
+        }
+        .signup-container input[type="senha"]{
+            border-radius: 5px;
+            width: 230px;
+            height: 40px;
+            border-width: 1px;
+        }
+        .signup-container input[type="date"]{
+            border-radius: 5px;
+            width: 230px;
+            height: 40px;
+            border-width: 1px;
+        }
+        .signup-container input[type="password"]{
+            border-radius: 5px;
+            width: 230px;
+            height: 40px;
+            border-width: 1px;
+        }
+        label{
+            text-align: right
+        }
+    </style>
+</head>
+<body>
+    <header class="header" >
+        <img src="logo/IMG-20240326-WA0005.jpg" alt="logo">
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Crie sua conta</h1>
+    <form action="#" method="post">
+    <div class="signup-container">
+        <label>Nome Completo</label>
+        <input type="text" id="nome" name="nome" required><br>
+        <br>
+
+        <label>Selecione seu Gênero</label><br>
+        <input type="radio" id="gênero" name="gênero" value="masculino">
+        <label for="gênero">Masculino</label> 
+        <input type="radio" id="gênero" name="gênero" value="feminino">
+        <label for="gênero">Feminino</label> 
+        <input type="radio" id="gênero" name="gênero" value="outros">
+        <label for="gênero">Outros</label><br>
+    <br>
+    
+        <label>Data de Nascimento</label>
+        <input type="date" name="data" id="data" required><br>
+    <br>
+    
+    <label>Nome de Usuário</label>
+    <input type="text" name="usuário" placeholder="crie um usuário" required><br>
+    <br>
+    
+        <label>E-mail</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required><br>
+    <br>
+
+        <label>Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="pelo menos 6 caracteres" required><br>
+    <br>
+        <label>Confirmar Senha</label>
+        <input type="password" name="senha2" id="senha2" placeholder="inserir novamente" required><br>
+    
+    <br>    
+        <button type="submit">Criar</button>
+          </div>
+          </form>
+        </body>
+          <p> Já possui uma conta? <a href="Untitled-1.html">entrar</a></p>
+
+    
+</html>
