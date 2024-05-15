@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlhetics</title>
+    <style>
+        .header{
+            width: 100%;
+            height: 100px;
+            background-color: #000346;
+            display:flex; flex-direction: row;
+            align-items: center;
+            gap: 300px;
+        }
+        html,body{
+            padding: 0;
+            margin: 0;
+        }
+        button{
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            background-color: #00FF93;
+            width: 10%;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 10px;
+            width: 150px;
+            height: 45px;
+            border-width: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: #000346;
+        }
+        .botao2{
+            position: absolute;
+            top: 30px;
+            right: 200px;
+            background-color: #000346;
+            width: 10%;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 10px;
+            width: 150px;
+            height: 45px;
+            border-width: 3px;
+            border-color: #00FF93;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+             color: #00FF93;
+        }
+        div{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            right: 560px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="imagens/IMG-20240326-WA0005.jpg" alt="Logo">
+        <button type="submit">Login</button>
+        <button class="botao2"  type="submit">Cadastro</button>
+      </header>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    <div>
+      <h1>Bem-vindo ao Atlhetics. <BR>Sua fonte confiável de segurança alimentar!</BR></h1>
+      <p>Aqui, comprometemo-nos a proteger sua saúde e bem-estar, fornecendo informações atualizadas e práticas sobre segurança alimentar. <br>estamos aqui para garantir que cada refeição seja uma experiência segura e deliciosa. Junte-se a nós na busca por uma alimentação <br>mais segura e saudável. Sua saúde está em boas mãos com Atlhetics."</br></p>
+    </div>
+    <div>
+        <button class="botao3" type="submit">teste gratis</button>
+    </div>
+
+     
+</body>
+</html>
