@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,6 +51,9 @@
             color: #000346;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 17px;
+            position: absolute;
+            left: 500px;;
+            
         }
         textarea{
             border-radius: 10px;
@@ -63,6 +66,8 @@
             width: 200px;
             height: 20px;
             border-width: 1px;
+            width: 47%;
+
         }
         select{
             border-radius: 10px;
@@ -73,130 +78,74 @@
         ::-webkit-input-placeholder{
             color:black;
             font: 12px verdana, arial, sans-serif;
+            font-weight: bold;
         }
+        .img2{
+            position: absolute;
+            left: 780px;
+            top: 270px;
+            width: 355px;;
+            height: 355px;;
+            border-radius: 10px;
+
+        }
+       fieldset{
+        text-align: left;
+        border-radius: 10px;
+        display: block;
+       }
+       legend{
+        font-size: 13pt;
+        font-weight: bold;
+       }
+       body{
+        background-image: url(projeto/img/img3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        image-rendering: auto;
+      
+    }
+
     </style>
 
 </head>
 <body>
 
     <header class="header">
-        <img src="imagens/IMG-20240326-WA0005.jpg" alt="Logo">
+        <img src="projeto/img/logo-projeto (1).jpg" alt="Logo">
       </header>
 
     <div>
+        <br><br>
         <h1> Tela de formulário</h1>
-        <p>Complete com suas informações</p>
         <br>
-    
+    <fieldset style="width: 48%; margin: 0px auto;">
+        <legend>Complete com suas informações</legend><br>
         <form action="#" method="post">
                 <input type="text" name="Nome" id="Nome" size="" placeholder="Nome"><br>
                 <br>
-
-                <select id="number">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                    <option>13</option>
-                    <option>14</option>
-                    <option>15</option>
-                    <option>16</option>
-                    <option>17</option>
-                    <option>18</option>
-                    <option>19</option>
-                    <option>20</option>
-                    <option>21</option>
-                    <option>22</option>
-                    <option>23</option>
-                    <option>24</option>
-                    <option>25</option>
-                    <option>26</option>
-                    <option>27</option>
-                    <option>28</option>
-                    <option>29</option>
-                    <option>30</option>
-                    <option>31</option>
-                    <option>32</option>
-                    <option>33</option>
-                    <option>34</option>
-                    <option>35</option>
-                    <option>36</option>
-                    <option>37</option>
-                    <option>38</option>
-                    <option>39</option>
-                    <option>40</option>
-                    <option>51</option>
-                    <option>52</option>
-                    <option>53</option>
-                    <option>54</option>
-                    <option>55</option>
-                    <option>56</option>
-                    <option>57</option>
-                    <option>58</option>
-                    <option>59</option>
-                    <option>60</option>
-                    <option>61</option>
-                    <option>62</option>
-                    <option>63</option>
-                    <option>64</option>
-                    <option>65</option>
-                    <option>66</option>
-                    <option>67</option>
-                    <option>68</option>
-                    <option>69</option>
-                    <option>70</option>
-                    <option>71</option>
-                    <option>72</option>
-                    <option>73</option>
-                    <option>74</option>
-                    <option>75</option>
-                    <option>76</option>
-                    <option>77</option>
-                    <option>78</option>
-                    <option>79</option>
-                    <option>80</option>
-                    <option>81</option>
-                    <option>82</option>
-                    <option>83</option>
-                    <option>84</option>
-                    <option>85</option>
-                    <option>86</option>
-                    <option>87</option>
-                    <option>88</option>
-                    <option>89</option>
-                    <option>90</option>
-                    <option>91</option>
-                    <option>92</option>
-                    <option>93</option>
-                    <option>94</option>
-                    <option>95</option>
-                    <option>96</option>
-                    <option>97</option>
-                    <option>98</option>
-                    <option>99+</option>
-                </select><br>
+                <input type="number" name="Idade" id="Nome" size="" placeholder="Idade"><br>
                 <br>
 
-            <input type="text" name="Peso" id="Peso" placeholder="Peso" required><br>
+            <input type="number" name="Peso" id="Peso" placeholder="Peso"><br>
             <br>
 
-            <input type="text" name="Altura" id="Altura" placeholder="Altura" required><br>
+            <input type="number" name="Altura" id="Altura" placeholder="Altura"><br>
             <br>
 
-            <br>
-            <textarea rows="10" style="width: 26em;" id="alimentação" name="alimentação" placeholder="Conte sobre sua alimentação" required></textarea><br>
-        </div>
+            <textarea rows="10" style="width: 26em;" id="alimentação" name="alimentação" placeholder="Conte sobre sua alimentação" ></textarea><br>
+            <img src="projeto/img/img 1.jpeg" alt="" class="img2">
+        
    
-        <button type="submit">Concluído</button>
+        <br><a href="Tela de resultados.html"><button type="submit" class="button">Concluído</a></button>
+        <br><br>
+    </div>
+    </fieldset>
+    </form>
+
+</body>
+</html>
     </form>
 
 </body>
