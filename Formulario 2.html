@@ -52,7 +52,7 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 17px;
             position: absolute;
-            left: 500px;;
+            left: 130px;;
             
         }
         textarea{
@@ -82,14 +82,14 @@
         }
         .img2{
             position: absolute;
-            left: 780px;
-            top: 270px;
+            left: 400px;
+            top: 150px;
             width: 355px;;
             height: 355px;;
             border-radius: 10px;
 
         }
-       fieldset{
+        .fieldset2{
         text-align: left;
         border-radius: 10px;
         display: block;
@@ -99,13 +99,18 @@
         font-weight: bold;
        }
        body{
-        background-image: url(projeto/img/img3.jpeg);
+        background-image: url(img/img3.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         image-rendering: auto;
-      
-    }
+       }
+       .fieldset1{
+       border-radius: 10px;
+       backdrop-filter: blur(20px);
+       }
+
+
 
     </style>
 
@@ -113,14 +118,15 @@
 <body>
 
     <header class="header">
-        <img src="projeto/img/logo-projeto (1).jpg" alt="Logo">
+        <img src="img/logo-projeto (1).jpg" alt="Logo">
       </header>
 
     <div>
         <br><br>
-        <h1> Tela de formulário</h1>
+    <fieldset style=" width: 50%; margin: 0px auto;" class="fieldset1">
+    <h1> Tela de formulário</h1>
         <br>
-    <fieldset style="width: 48%; margin: 0px auto;">
+    <fieldset style="width: 95%; margin: 0px auto;" class="fieldset2">
         <legend>Complete com suas informações</legend><br>
         <form action="#" method="post">
                 <input type="text" name="Nome" id="Nome" size="" placeholder="Nome"><br>
@@ -135,13 +141,15 @@
             <br>
 
             <textarea rows="10" style="width: 26em;" id="alimentação" name="alimentação" placeholder="Conte sobre sua alimentação" ></textarea><br>
-            <img src="projeto/img/img 1.jpeg" alt="" class="img2">
+            <img src="img/img 1.jpeg" alt="" class="img2">
         
    
         <br><a href="Tela de resultados.html"><button type="submit" class="button">Concluído</a></button>
         <br><br>
     </div>
     </fieldset>
+    </fieldset>
+        
     </form>
 
 </body>
