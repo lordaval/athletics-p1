@@ -20,6 +20,9 @@
             background-color: #00ff93;
             width: 10%;
             height: 30px;
+            position: absolute;
+            top: 600px;
+            left: 755px;
         }
         header{
             background-color: #000346;
@@ -51,7 +54,7 @@
         }
         div{
             text-align: center;
-            font-family: Arial, Helvetica, sans-serif
+            font-family: Arial, Helvetica, sans-serif;
         }
         h1{
             font-style: initial;
@@ -88,60 +91,166 @@
             height: 40px;
             border-width: 1px;
         }
-        label{
-            text-align: right
+        .label1{
+            position: absolute;
+            left: 645px;
+        }
+        fieldset{
+            border-radius: 10px;
+            display: block;
+        }
+        .input1{
+            position: absolute;
+            left: 600px;
+        }
+        .label1{
+            position: absolute;
+            left: 605px;
+        }
+        .input2{
+            position: absolute;
+            left: 850px;
+            top: 297px;
+        }
+        .label2{
+            position: absolute;
+            left: 855px;
+            top: 280px;
+        }
+        .input3{
+            position: absolute;
+            left: 600px;
+            top: 380px;
+        }
+        .label3{
+            position: absolute;
+            left: 605px;
+            top: 360px;
+        }
+        .input4{
+            position: absolute;
+            left: 850px;
+            top: 380px;
+        }
+        .label4{
+            position: absolute;
+            left: 855px;
+            top: 360px; 
+        }
+        .input5{
+            position: absolute;
+            left: 600px;
+            top: 460px;
+        }
+        .label5{
+            position: absolute;
+            left: 605px;
+            top: 440px;
+        }
+        .input6{
+            position: absolute;
+            left: 850px;
+            top: 460px;
+        }
+        .label6{
+            position: absolute;
+            left: 855px;
+            top: 440px;
+        }
+        .label10{
+            position: absolute;
+            left: 750px;
+            top: 520px
+        }
+        .input7{
+            position: absolute;
+            left: 640px;
+            top: 550px
+        }
+        .label7{
+            position: absolute;
+            left: 670px;
+            top: 550px
+        }
+        .input8{
+            position: absolute;
+            left: 770px;
+            top: 550px
+        }
+        .label8{
+            position: absolute;
+            left: 800px;
+            top: 550px
+        }
+        .input9{
+            position: absolute;
+            left: 900px;
+            top: 550px
+        }
+        .label9{
+            position: absolute;
+            left: 930px;
+            top: 550px
+        }
+        .p1{
+            position: absolute;
+            top: 630px;
+            left: 730px;
         }
     </style>
 </head>
 <body>
     <header class="header" >
-        <img src="logo/IMG-20240326-WA0005.jpg" alt="logo">
+        <img src="img/logo-projeto (1).jpg" alt="logo">
     </header>
     <br>
     <br>
     <br>
     <br>
-
-    <h1>Crie sua conta</h1>
+    <fieldset style="width: 50%; margin: 0px auto;">
+        <h1>Crie sua conta</h1>
     <form action="#" method="post">
-    <div class="signup-container">
-        <label>Nome Completo</label>
-        <input type="text" id="nome" name="nome" required><br>
+    <div class="signup-container"><br>
+        <label class="label1" >Nome Completo</label>
         <br>
-
-        <label>Selecione seu Gênero</label><br>
-        <input type="radio" id="gênero" name="gênero" value="masculino">
-        <label for="gênero">Masculino</label> 
-        <input type="radio" id="gênero" name="gênero" value="feminino">
-        <label for="gênero">Feminino</label> 
-        <input type="radio" id="gênero" name="gênero" value="outros">
-        <label for="gênero">Outros</label><br>
+        <input type="text" id="nome" name="nome" required class="input1"><br>
+        <br>
+    
+        <label class="label2">Data de Nascimento</label>
+        <br>
+        <input type="date" name="data" id="data" required class="input2"><br>
     <br>
     
-        <label>Data de Nascimento</label>
-        <input type="date" name="data" id="data" required><br>
+    <label class="label3">Nome de Usuário</label>
+    <br>
+    <input type="text" name="usuário" placeholder="crie um usuário" required class="input3"><br>
     <br>
     
-    <label>Nome de Usuário</label>
-    <input type="text" name="usuário" placeholder="crie um usuário" required><br>
-    <br>
-    
-        <label>E-mail</label>
-        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required><br>
+        <label class="label4">E-mail</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required class="input4"><br>
     <br>
 
-        <label>Senha</label>
-        <input type="password" name="senha" id="senha" placeholder="pelo menos 6 caracteres" required><br>
+        <label class="label5">Senha</label>
+        <br>
+        <input type="password" name="senha" id="senha" placeholder="pelo menos 6 caracteres" required class="input5"><br>
     <br>
-        <label>Confirmar Senha</label>
-        <input type="password" name="senha2" id="senha2" placeholder="inserir novamente" required><br>
-    
-    <br>    
-        <button type="submit">Criar</button>
+        <label class="label6">Confirmar Senha</label>
+        <br>
+        <input type="password" name="senha2" id="senha2" placeholder="inserir novamente" required class="input6"><br>
+    <br>  
+        <label class="label10">Selecione seu Gênero</label><br>
+        <input type="radio" id="gênero" name="gênero" value="masculino" class="input7">
+        <label for="gênero" class="label7">Masculino</label> 
+        <input type="radio" id="gênero" name="gênero" value="feminino" class="input8">
+        <label for="gênero" class="label8">Feminino</label> 
+        <input type="radio" id="gênero" name="gênero" value="outros" class="input9">
+        <label for="gênero" class="label9">Outros</label><br>  
+        <br>
+        <a href="index.html"><button type="submit">Criar</a></button>
           </div>
-          </form>
-        </body>
-          <p> Já possui uma conta? <a href="Untitled-1.html">entrar</a></p>
-
-    
+        </form>
+    </body>
+      <p class="p1"> Já possui uma conta? <a href="códigos página login.html">entrar</a></p><br>
+    </fieldset>    
 </html>
