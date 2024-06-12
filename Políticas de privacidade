@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politicas de privacidade</title>
+    <style>
+         .header{
+            width: 100%;
+            height: 100px;
+            background-color: #000346;
+            display:flex; flex-direction: row;
+            align-items: center;
+            gap: 300px;
+            
+        }
+        html,body{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        body{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+        }
+        fieldset{
+            border: transparent;
+        }
+        .rodape{
+    background-color: #000346;
+    color: white;
+    height: 30%;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+    margin-top: 435px;
+    padding: 0;
+    margin: 0;
+    
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo-projeto.jpg"alt="Logo">
+      </header>
+      <fieldset>
+      <h1>Políticas de privacidade</h1>
+      <P><span style="color: rgb(0, 0, 0);">A sua privacidade é importante para nós. É política do atlhetics respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site atlhetics, e outros sites que possuímos e operamos.</span></p>
+      <p><span style="color: rgb(0, 0, 0);">Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</span></p>
+      <p><span style="color: rgb(0, 0, 0);">Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</span></p>
+      <p><span style="color: rgb(0, 0, 0);">Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</span></p>
+      <p><span style="color: rgb(0, 0, 0);">O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade</a><span style="color: rgb(0, 0, 0);">.</span></p>
+      <p><span style="color: rgb(0, 0, 0);">Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</span></p>
+      <p><span style="color: rgb(0, 0, 0);">O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</span></p>
+      <p><br></p></span></p><h3><span style="color: rgb(0, 0, 0);">Compromisso do Usuário</span></h3>
+      <p><span style="color: rgb(0, 0, 0);">O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o atlhetics oferece no site e com caráter enunciativo, mas não limitativo:</span></p>
+      <ul><li><span style="color: rgb(0, 0, 0);">A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</span></li>
+        <br><li><span style="color: rgb(0, 0, 0);">B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, </span>
+            <span style="color: rgb(0, 0, 0);"><a href='https://pixbetoficial.br.com' style='color:inherit !important; text-decoration: none !important; font-size: inherit !important;'>pixbet</a></span>
+            <span style="color: rgb(0, 0, 0);"> ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</span></li>
+        <br><li><span style="color: rgb(0, 0, 0);">C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do atlhetics, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</span></li>
+        <br><br></ul><h3><span style="color: rgb(0, 0, 0);">Mais informações</span></h3><p><span style="color: rgb(0, 0, 0);">Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</span></p>
+        <p><span style="color: rgb(0, 0, 0);">Esta política é efetiva a partir de&nbsp;11 June 2024.</span></p>
+        </fieldset>
+        <footer class="rodape" id="contato">
+            <div class="rodape-div">
+        
+                <div class="rodape-div-1">
+                    <div class="rodape-div-1-coluna">
+                        <span><b>Atlhetics</b></span>
+                        <p>Duque de Caxias - Rio de Janeiro</p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-2">
+                    <div class="rodape-div-2-coluna">
+                        <span><b>Contatos</b></span>
+                        <p>contato@na.na</p>
+                        <p>+55 21 99999-9999</p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-3">
+                    <div class="rodape-div-3-coluna">
+                        <span><b>Links</b></span>
+                        <p><a href="#servicos">Serviços</a></p>
+                        <p><a href="#empresa">Empresa</a></p>
+                        <p><a href="#sobre">Sobre</a></p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-4">
+                    <div class="rodape-div-4-coluna">
+                        <span><b>Outros</b></span>
+                        <p>Políticas de Privacidade</p>
+                    </div>
+                </div>
+        
+            </div>
+            <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados.</p>
+        </footer>
+</body>
+</html>
