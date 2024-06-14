@@ -17,7 +17,7 @@
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 500;
-        
+
         }
         body{
             text-align: center;
@@ -29,14 +29,15 @@
             display:flex; flex-direction: row;
             align-items: center;
             gap: 300px;
-            
+
         }
         html,body{
             padding: 0;
             margin: 0;
+            background-image: url(img/Design\ sem\ nome\ \(1\).png);
         }
         img{
-            width: 8%;
+            width: 100px;
             height: 100px;
         }
         button{
@@ -53,8 +54,9 @@
             font-size: 17px;
             position: absolute;
             left: 130px;;
-            
+
         }
+  
         textarea{
             border-radius: 10px;
             width: 150px;
@@ -80,36 +82,74 @@
             font: 12px verdana, arial, sans-serif;
             font-weight: bold;
         }
-        .img2{
-            position: absolute;
-            left: 400px;
-            top: 150px;
-            width: 355px;;
-            height: 355px;;
-            border-radius: 10px;
+          .img2 {
+    width: 355px;
+    height: 355px;
+    border-radius: 10px;
+    position: absolute;
+    left: 600px; /* posiciona inicialmente a imagem no centro horizontal */
+    transform: translateX(-50%); /* centraliza horizontalmente a imagem */
+    top: 300px; /* posiciona inicialmente a imagem a 150px do topo */
+}
 
-        }
+@media (max-width: 768px) {
+    /* Estilos específicos para dispositivos com largura máxima de 768px */
+    .img2 {
+        width: 170px; /* reduz a largura da imagem */
+        height: 170px; /* reduz a altura da imagem */
+        left: 72%; /* mantém a imagem centralizada horizontalmente */
+        transform: translateX(-50%); /* centraliza horizontalmente a imagem */
+        top: 150px; /* move a imagem para cima */
+    }
+}
         .fieldset2{
         text-align: left;
         border-radius: 10px;
         display: block;
+          width: 95%; 
+          margin: 0px auto;
        }
+  @media (max-width: 768px) {
+    /* Estilos específicos para dispositivos com largura máxima de 768px */
+    .fieldset2{
+        width: 48%; /* reduz a largura da imagem */
+        height: 450px;/* reduz a altura da imagem */
+      margin: 0px auto;
+    }
        legend{
         font-size: 13pt;
         font-weight: bold;
        }
-       body{
-        background-image: url(img/img3.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        image-rendering: auto;
-       }
        .fieldset1{
        border-radius: 10px;
        backdrop-filter: blur(20px);
+       max-width: 100%;
+       width: 48%; 
+       margin: 0px auto;
+       
        }
+  @media (max-width: 768px) {
+    /* Estilos específicos para dispositivos com largura máxima de 768px */
+    .fieldset1{
+        width: 48%; /* reduz a largura da imagem */
+        height: 700 px; /* reduz a altura da imagem */
+      margin: 0px auto;
+      border-radius: 10px;
+    }
+       a{
+        text-decoration: none;
+       }
+       .usuario{
+      position: absolute;
+      right: 50px;
+      cursor: pointer;
 
+    }
+    .menu{
+      position:absolute;
+      right: 150px;
+      cursor: pointer;
+    }
 
 
     </style>
@@ -118,15 +158,17 @@
 <body>
 
     <header class="header">
-        <img src="img/logo-projeto (1).jpg" alt="Logo">
+        <img src="img/logo-projeto.jpg" alt="Logo">
+        <img src="img/menu.png" style="height: 100px;"class="menu">
+        <img src="img/usuario.png" alt="" class="usuario" style=" width: 50px; height: 50px;">
       </header>
 
     <div>
         <br><br>
-    <fieldset style=" width: 50%; margin: 0px auto;" class="fieldset1">
+    <fieldset class="fieldset1">
     <h1> Tela de formulário</h1>
         <br>
-    <fieldset style="width: 95%; margin: 0px auto;" class="fieldset2">
+    <fieldset class="fieldset2">
         <legend>Complete com suas informações</legend><br>
         <form action="#" method="post">
                 <input type="text" name="Nome" id="Nome" size="" placeholder="Nome"><br>
@@ -140,16 +182,16 @@
             <input type="number" name="Altura" id="Altura" placeholder="Altura"><br>
             <br>
 
-            <textarea rows="10" style="width: 26em;" id="alimentação" name="alimentação" placeholder="Conte sobre sua alimentação" ></textarea><br>
+            <textarea rows="10" style="width: 25.8em;" id="alimentação" name="alimentação" placeholder="Conte sobre sua alimentação" ></textarea><br>
             <img src="img/img 1.jpeg" alt="" class="img2">
-        
-   
+
+
         <br><a href="Tela de resultados.html"><button type="submit" class="button">Concluído</a></button>
-        <br><br>
+        <br><br><br>
     </div>
     </fieldset>
     </fieldset>
-        
+
     </form>
 
 </body>
